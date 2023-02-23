@@ -53,10 +53,10 @@ gem 'bootsnap', require: false
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem 'rspec-rails', '~> 3.5'
-  gem 'factory_girl_rails'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :development do
@@ -72,7 +72,6 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
