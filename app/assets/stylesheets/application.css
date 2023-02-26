@@ -137,7 +137,7 @@ input::placeholder {
   letter-spacing: 1px;
 }
 
-.splash_container {
+.sp_container {
   display: grid;
   grid-template-rows: 1fr 0fr;
   justify-content: center;
@@ -145,27 +145,20 @@ input::placeholder {
   height: 100vh;
 }
 
-.splash_container h1 {
-  font-size: 2.1rem;
+.sp_container h1 {
+  font-size: 2.2rem;
   text-align: center;
+  color: var(--black);
 }
 
-.splash_container h1 span:first-child {
-  color: var(--blue);
-}
-
-.splash_container h1 span:nth-child(2) {
-  color: var(--dark);
-}
-
-.splash_links {
+.sp_links {
   text-align: center;
   display: grid;
   justify-content: center;
   padding-bottom: 1rem;
 }
 
-.splash_links a {
+.sp_links a {
   width: 90vw;
   height: 50px;
   display: flex;
@@ -176,12 +169,12 @@ input::placeholder {
   border-radius: 3px;
 }
 
-.splash-login {
+.sp-login {
   background: var(--blue);
   color: var(--white);
 }
 
-.splash-signup {
+.sp-signup {
   width: 90vw;
   background: var(--grey2);
   color: var(--dark);
@@ -202,7 +195,7 @@ input::placeholder {
   align-items: center;
 }
 
-.splash_links a:hover {
+.sp_links a:hover {
   box-shadow: 3px 3px 4px 1px #0e0e0e82;
   transform: scale(1);
   transition: all 0.4s ease-in;
