@@ -33,6 +33,8 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 # devise gem for authentication
 gem 'devise'
 
+gem 'bullet'
+
 # for authorization
 gem 'cancancan'
 
