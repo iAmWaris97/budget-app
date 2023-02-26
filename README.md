@@ -13,16 +13,15 @@
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 EveryCent ](#-everycent-)
   - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
+    - [Ruby on Rails ](#ruby-on-rails-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [🚀 Project Description ](#-project-description-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-  - [👥 Author ](#-author-)
+  - [✍ Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -34,13 +33,11 @@
 
 # 📖 EveryCent <a name="about-project"></a>
 
-**EveryCent** is an app to manage your expenses.
+**EveryCent** helps you manage your daily expenses.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-> Ruby on Rails
+### Ruby on Rails <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
@@ -62,16 +59,14 @@
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
-
+<br>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-Key features of the application.
-
-- **Create User**
-- **Creat groups**
-- **Create expenses**
+- **Good Looking UI**
+- **Validatable and Confirmable Login/Signup Pages**
+- **Authorization and Authentication rules for all CRUD operations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,13 +74,7 @@ Key features of the application.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [EveryCent](https://warisapp.onrender.com/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Project Description <a name="description"></a>
-
-- [Description](https://drive.google.com/file/d/1ppnMSbGf-Lri7_r0YaSi622aqNF2vxki/view?usp=share_link)
+- A live demo of the app: 👉 [EveryCent](https://warisapp.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,10 +108,6 @@ Move inside the directory:
 
 ### Install
 
-Install this project with:
-
-> run
-
 ```sh
  bundle install
 ```
@@ -131,49 +116,25 @@ Install this project with:
 
 To run the project, execute the following commands:
 
-> run
+```sh
+ rails db:create
+```
+
+```sh
+ rails db:migrate
+```
 
 ```sh
  rails server
 ```
 
-> run
-
-```sh
- rails db:create
-```
-
 Open the app on http://localhost:3000/
-
-<!-- ### Run tests
-
-To run tests, run the following command: -->
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-<!-- ### Deployment
-
-You can deploy this project using: -->
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## ✍ Author <a name="authors"></a>
 
 **👨‍💻 Waris Haleem**
 
@@ -187,9 +148,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Create User**
-- [ ] **Add post**
-- [ ] **Add like and comments**
+- [ ] **Sign_out option**
+- [ ] **New Styles**
+- [ ] **Searching option**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,7 +186,7 @@ Original design idea by [Gregoire Vella on Behance](https://www.behance.net/greg
 
 - **What is this app about?**
 
-  - This is a blog app, where users can create accounts and post their blogs.
+  - This app is to help you categorize and list your daily expenses.
 
 - **What are the technologies used building this app?**
 
