@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root 'splash#index'
+  get '/unauthorized', to: 'unauthorized#index'
+  
   match '*unmatched', to: 'application#not_found_method', via: :all, constraints: ->(req) do
     req.path.exclude? 'rails/active_storage'
   end
