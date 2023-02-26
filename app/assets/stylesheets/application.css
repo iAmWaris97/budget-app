@@ -179,7 +179,7 @@ input::placeholder {
   transition: all 0.4s ease-in;
 }
 
-.bar {
+.top_bar {
   width: 100%;
   background: var(--blue);
   display: flex;
@@ -191,7 +191,7 @@ input::placeholder {
   padding: 0 0.8rem;
 }
 
-.bar * {
+.top_bar * {
   border: none;
   color: var(--grey);
   background: transparent;
@@ -203,12 +203,12 @@ input::placeholder {
   height: 1.1rem;
 }
 
-.bar h2 {
+.top_bar h2 {
   font-size: 1rem;
   font-weight: normal;
 }
 
-.bar input {
+.top_bar input {
   padding: 0;
 }
 
@@ -281,6 +281,21 @@ input::placeholder {
   box-shadow: 3px 3px 3px var(--dark);
 }
 
+.list_gen {
+  flex-direction: column;
+}
+
+.list_gen h3 {
+  align-self: flex-end;
+  font-size: 1rem;
+  color: var(--dark);
+}
+
+.btn_list {
+  display: flex;
+  gap: 0.3rem;
+}
+
 .list_btn {
   align-self: flex-end;
   font-size: 0.7rem;
@@ -331,17 +346,18 @@ input::placeholder {
 
 /* -------group details page-------- */
 
-.edit_group_page {
+.edit_add_page {
   display: flex;
   flex-direction: column;
   padding: 1em 0;
 }
 
-.edit_group_page form {
+.edit_add_page form {
   padding: 1.3rem 1rem;
 }
 
-.edit_group_page form input[type="text"] {
+.edit_add_page form input[type="text"],
+.edit_add_page form input[type="number"] {
   width: 100%;
   border: none;
   background: var(--grey2);
@@ -368,4 +384,30 @@ form input[type="file"]::-webkit-file-upload-button {
   justify-content: flex-end;
   padding-top: 1rem;
   border-top: 0.7px solid var(--grey2);
+}
+
+.expenses_page .group_header {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.2rem 1rem;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.group_header > div {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header_name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.edit_add_page form input[type="text"],
+.edit_add_page form input[type="number"] {
+  margin: 0.5rem 0;
 }
