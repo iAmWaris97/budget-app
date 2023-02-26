@@ -16,6 +16,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
+  - [🚀 Project Description ](#-project-description-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -78,9 +79,13 @@ Key features of the application.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-The project is not currently hosted and will go live after the completion.
+- [EveryCent](https://warisapp.onrender.com/)
 
-<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com)   -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Project Description <a name="description"></a>
+
+- [Description](https://drive.google.com/file/d/1ppnMSbGf-Lri7_r0YaSi622aqNF2vxki/view?usp=share_link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,13 +108,13 @@ In order to run this project you need to:
 Clone this repository to your desired folder:
 
 ```sh
- git clone https://github.com/iAmWaris97/diary.git
+ git clone https://github.com/iAmWaris97/budget-app.git
 ```
 
 Move inside the directory:
 
 ```sh
- cd diary
+ cd budget-app
 ```
 
 ### Install
@@ -174,13 +179,7 @@ Example:
 
 - GitHub: [@iAmWaris97](https://github.com/iAmWaris97)
 - Twitter: [@iAmWaris97](https://twitter.com/iAmWaris97)
-- LinkedIn: [Waris Haleem](https://www.linkedin.com/in/waris-haleem/)
-
-👤 **Erick Hans Martinez**
-
-- GitHub: [@erickhansx](https://github.com/erickhansx)
-- Twitter: [@TheErickHans](https://twitter.com/TheErickHans)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [Waris Haleem](https://www.linkedin.com/in/waris-haleem/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,7 +215,7 @@ If you like this project please give it stars on GitHub.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse organization and Ruby on Rails co founders for providing the documentations on RoR technology.
+Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
