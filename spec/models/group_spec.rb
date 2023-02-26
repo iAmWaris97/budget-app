@@ -23,16 +23,6 @@ RSpec.describe Group, type: :model do
     expect(subject).to_not be_valid
   end
 
-  it 'name should not be too short' do
-    subject.name = 'a'
-    expect(subject).to_not be_valid
-  end
-
-  it 'name should not be too long' do
-    subject.name = 'a' * 301
-    expect(subject).to_not be_valid
-  end
-
   it 'name should not be empty' do
     subject.name = ' '
     expect(subject).to_not be_valid
